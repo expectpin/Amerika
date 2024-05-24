@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "quickapp.client": {
+    "amerika.client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/quickapp.client",
+            "outputPath": "dist/amerika.client",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -133,10 +133,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "quickapp.client:build:production"
+              "buildTarget": "amerika.client:build:production"
             },
             "development": {
-              "buildTarget": "quickapp.client:build:development"
+              "buildTarget": "amerika.client:build:development"
             }
           },
           "defaultConfiguration": "development",
@@ -147,7 +147,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "quickapp.client:build"
+            "buildTarget": "amerika.client:build"
           }
         },
         "test": {

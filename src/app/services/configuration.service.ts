@@ -102,7 +102,7 @@ export class ConfigurationService {
 
   public baseUrl = environment.baseUrl ?? Utilities.baseUrl();
   public loginUrl = environment.loginUrl;
-  public fallbackBaseUrl = 'https://quickapp-standard.ebenmonney.com';
+  public fallbackBaseUrl = 'https://localhost:4200';
   // ***End of defaults***
 
   private _language: string | null = null;

@@ -9,7 +9,7 @@ import { LoginResponse } from '../models/login-response.model';
 
 @Injectable()
 export class OidcHelperService {
-  private readonly clientId = 'quickapp_spa';
+  private readonly clientId = 'amerika_spa';
   private readonly scope = 'openid email phone profile offline_access roles';
 
   private readonly tokenEndpoint = '/auth/login';
